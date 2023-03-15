@@ -1,0 +1,29 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+#clock{
+  display: grid;
+  grid-template-columns: 1fr auto 1fr auto 1fr;
+  grid-gap: 40px;
+  padding: 40px;
+  box-shadow: 0px 0px 15px 9px rgba(255, 255, 255, 0.103);
+}
+#clock > p{
+  padding: 0px 20px;
+  font-size: 80px;
+  text-align: center;
+  box-shadow: 0px 0px 15px 9px rgba(255, 255, 255, 0.103);
+  font-family: 'Noto Sans Lepcha', sans-serif;
+}
+#clock > hr{
+  width: 4px; 
+  background-color: rgba(255, 255, 255, 0.103);
+  border: none;
+}
